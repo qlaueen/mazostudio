@@ -1,0 +1,35 @@
+.btn-portfolio {
+  background-color: $brand-green;
+  color: $brand-white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}
+
+.btn-portfolio:hover {
+  background-color: $brand-white !important;
+}
+
+.btn-about {
+  background-color: $brand-purple;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}
+
+.btn-about:hover {
+  background-color: $brand-white !important;
+}
+
+.btns-about {
+  display: flex;
+  margin: 1em;
+}
+
+.btn-contact {
+  background-color: $brand-black;
+  color: $brand-white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}

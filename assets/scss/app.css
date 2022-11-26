@@ -1,0 +1,278 @@
+.top-section {
+  background-color: transparent;
+}
+.top-section .nav-container {
+  display: flex;
+  padding: 1em;
+  background-color: transparent;
+}
+.top-section .btn {
+  display: flex !important;
+  justify-content: end !important;
+}
+.top-section .nav-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-section .nav-logo .logo {
+  height: 50px;
+}
+.top-section .btn-menu {
+  border: none;
+  background-color: transparent;
+  justify-content: end;
+}
+.top-section .nav-link {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bolder;
+  color: #F0F1EA;
+  padding-top: 1.5em;
+  text-align: end;
+}
+.top-section .nav-link:hover {
+  color: #F0F1EA;
+}
+.top-section .offcanvas {
+  padding: 1em;
+  background-color: rgba(92, 135, 48, 0.75);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  background-clip: unset;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/assets/images/background.svg");
+  background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main img {
+  padding: 0 2em;
+  width: 100%;
+  height: 100%;
+}
+
+.main-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url("/assets/images/background-port.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main-portfolio img {
+  width: 100%;
+  filter: grayscale(100%) blur(4px);
+  opacity: 0.5;
+  transition: 1s;
+  padding: 2em;
+}
+.main-portfolio img:hover {
+  transition: 1s;
+  filter: grayscale(0%) blur(0px);
+  opacity: 1;
+}
+.main-portfolio .pill {
+  border-radius: 20px;
+  background-color: #012F7F;
+  font-weight: 500;
+  color: #F0F1EA;
+  font-size: 0.8em;
+  padding: 0.2em 1.3em;
+}
+.main-portfolio .portfolio-title {
+  font-size: 2em;
+  margin: 0.5em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-portfolio .portfolio-description {
+  font-size: 1em;
+  padding: 1em 2em 2em 0;
+  color: #262626;
+}
+.main-portfolio .portfolio-item {
+  margin: 10em 0 10em 0;
+}
+.main-portfolio .portfolio-text {
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .main-portfolio .portfolio-text {
+    position: relative;
+  }
+}
+
+.main-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url("/assets/images/background-blog.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main-blog .article-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+.main-blog .article-item .pill {
+  border-radius: 20px;
+  background-color: #012F7F;
+  font-weight: 500;
+  color: #F0F1EA;
+  font-size: 0.8em;
+  padding: 0.2em 1.3em;
+}
+.main-blog .article-item .post-title {
+  font-size: 2em;
+  margin: 0.5em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-blog .article-item .post-text {
+  text-align: left;
+  padding: 2em 0;
+}
+.main-blog .article-item .post-text p {
+  color: #262626;
+}
+.main-blog .article-item .post-image {
+  width: 100%;
+}
+
+.btn-portfolio {
+  background-color: #5C8730;
+  color: #F0F1EA;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}
+
+.btn-portfolio:hover {
+  background-color: #F0F1EA !important;
+}
+
+.btn-about {
+  background-color: #8562A2;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}
+
+.btn-about:hover {
+  background-color: #F0F1EA !important;
+}
+
+.btns-about {
+  display: flex;
+  margin: 1em;
+}
+
+.btn-contact {
+  background-color: #262626;
+  color: #F0F1EA;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.2em 0.2em;
+}
+
+.main-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url("/assets/images/background-about.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-attachment: fixed !important;
+  overflow: scroll;
+  padding: 6em 3em;
+}
+.main-about .about-name {
+  font-weight: 700;
+  font-size: 48px;
+  width: 80%;
+  padding-top: 0.5em;
+}
+.main-about .image-about {
+  width: 80%;
+  justify-content: center;
+}
+.main-about .col-namepic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-about .col-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-about .row {
+  height: 100vh;
+}
+
+.main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/assets/images/background-contact.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  background-attachment: fixed;
+}
+.main-contact .title-contact {
+  font-size: 2em;
+  margin: 0.5em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main-contact .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  padding: 0 1em;
+}
+.main-contact input, .main-contact textarea {
+  background: #F5F5F5;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border: none;
+  width: 100%;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  font-weight: 300;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Open Sauce One";
+  background-color: #F0F1EA;
+}/*# sourceMappingURL=app.css.map */

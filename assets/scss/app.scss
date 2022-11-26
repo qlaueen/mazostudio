@@ -1,0 +1,25 @@
+// colors
+@import 'variables/colors';
+
+// Fonts
+@import 'variables/fonts';
+
+// elements
+@import 'elements/menu';
+@import 'elements/home';
+@import 'elements/portfolio';
+@import 'elements/blog';
+@import 'elements/buttons';
+@import 'elements/about';
+@import 'elements/contact';
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: $open-sauce;
+  background-color: $brand-white;
+
+}

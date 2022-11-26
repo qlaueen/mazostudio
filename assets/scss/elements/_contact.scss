@@ -1,0 +1,42 @@
+.main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/assets/images/background-contact.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  background-attachment: fixed;
+
+  .title-contact {
+    font-size: 2em;
+    margin: 0.5em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 0 1em;
+  }
+
+  input, textarea {
+    background: #F5F5F5;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+    width: 100%;
+    margin: 0.5em 0;
+    border-radius: 10px;
+    font-weight: 300;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.25);
+  }
+ 
+}

@@ -1,0 +1,59 @@
+
+.main-portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url("/assets/images/background-port.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  img {
+    width: 100%;
+    filter: grayscale(100%) blur(4px);
+    opacity: 0.5;    
+    transition: 1s;
+    padding: 2em;
+  }
+
+  img:hover {
+    transition: 1s;
+    filter: grayscale(0%) blur(0px);
+    opacity: 1;
+  }
+
+  .pill {
+    border-radius: 20px;
+    background-color: $brand-blue;
+    font-weight: 500;
+    color: $brand-white;
+    font-size: 0.8em;
+    padding: 0.2em 1.3em;
+  }
+
+  .portfolio-title {
+    font-size: 2em;
+    margin: 0.5em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .portfolio-description {
+    font-size: 1em;
+    padding: 1em 2em 2em 0;
+    color: $brand-black;
+  }
+  
+  .portfolio-item {
+    margin: 10em 0 10em 0;  
+  }
+
+  .portfolio-text {
+  justify-content: center;    
+    @media screen and (min-width: 992px) {
+      position: relative;
+    }
+  }
+}
