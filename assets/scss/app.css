@@ -210,19 +210,16 @@
   background: url("/assets/images/background-about.png");
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 100vh;
-  background-attachment: fixed !important;
-  overflow: scroll;
-  padding: 6em 3em;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .main-about .about-name {
   font-weight: 700;
   font-size: 48px;
-  width: 80%;
   padding-top: 0.5em;
 }
 .main-about .image-about {
-  width: 80%;
+  width: 60%;
   justify-content: center;
 }
 .main-about .col-namepic {
@@ -230,6 +227,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 350px;
+  padding-top: 10em;
 }
 .main-about .col-text {
   display: flex;
@@ -237,8 +236,26 @@
   justify-content: center;
   align-items: center;
 }
-.main-about .row {
-  height: 100vh;
+.main-about .col-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em 0;
+}
+.main-about .col-skills i {
+  font-size: 2em;
+  color: #8562A2;
+}
+.main-about .col-skills .skills {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  text-align: center;
 }
 
 .main-contact {

@@ -7,20 +7,17 @@
   background: url("/assets/images/background-about.png");
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: 100vh;
-  background-attachment: fixed !important;
-  overflow: scroll;
-  padding:6em 3em;
+  background-size: cover;
+  background-attachment: fixed;
 
   .about-name {
     font-weight: 700;
     font-size: 48px;
-    width: 80%;
     padding-top: 0.5em;
   }
 
   .image-about {
-    width: 80%;
+    width: 60%;
     justify-content: center;
     // padding-top: 10em;
   }
@@ -30,6 +27,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:350px;
+    padding-top: 10em;
   }
 
   .col-text {
@@ -39,7 +38,27 @@
     align-items: center;
   }
 
-  .row {
-    height: 100vh;
+  .col-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em 0 ;
+
+    i {
+      font-size: 2em;
+      color: $brand-purple;
+    }
+
+    .skills {
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 0.5em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5em;
+      text-align: center;
+    }
   }
 }
