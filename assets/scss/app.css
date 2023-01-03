@@ -71,14 +71,14 @@
 }
 .main-portfolio img {
   width: 100%;
-  filter: grayscale(100%) blur(4px);
+  filter: grayscale(100%);
   opacity: 0.5;
   transition: 1s;
   padding: 2em;
 }
 .main-portfolio img:hover {
   transition: 1s;
-  filter: grayscale(0%) blur(0px);
+  filter: grayscale(0%);
   opacity: 1;
 }
 .main-portfolio .pill {
@@ -155,14 +155,14 @@
 }
 .main-blog img {
   width: 100%;
-  filter: grayscale(100%) blur(4px);
+  filter: grayscale(100%);
   opacity: 0.5;
   transition: 1s;
   padding: 2em;
 }
 .main-blog img:hover {
   transition: 1s;
-  filter: grayscale(0%) blur(0px);
+  filter: grayscale(0%);
   opacity: 1;
 }
 
