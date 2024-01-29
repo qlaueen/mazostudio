@@ -77,7 +77,7 @@
   margin: 0 1em;
 }
 
-.main-portfolio {
+.main-projects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,19 +88,19 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.main-portfolio img {
+.main-projects img {
   width: 100%;
   filter: grayscale(100%);
   opacity: 0.5;
   transition: 1s;
   padding: 2em;
 }
-.main-portfolio img:hover {
+.main-projects img:hover {
   transition: 1s;
   filter: grayscale(0%);
   opacity: 1;
 }
-.main-portfolio .pill {
+.main-projects .pill {
   border-radius: 20px;
   background-color: #012F7F;
   font-weight: 500;
@@ -108,25 +108,25 @@
   font-size: 0.8em;
   padding: 0.2em 1.3em;
 }
-.main-portfolio .portfolio-title {
+.main-projects .projects-title {
   font-size: 2em;
   margin: 0.5em 0;
   font-weight: 700;
   text-transform: uppercase;
 }
-.main-portfolio .portfolio-description {
+.main-projects .projects-description {
   font-size: 1em;
   padding: 1em 2em 2em 0;
   color: #262626;
 }
-.main-portfolio .portfolio-item {
+.main-projects .projects-item {
   margin: 10em 0 10em 0;
 }
-.main-portfolio .portfolio-text {
+.main-projects .projects-text {
   justify-content: center;
 }
 @media screen and (min-width: 992px) {
-  .main-portfolio .portfolio-text {
+  .main-projects .projects-text {
     position: relative;
   }
 }
@@ -185,7 +185,7 @@
   opacity: 1;
 }
 
-.btn-portfolio {
+.btn-projects {
   background-color: #5C8730;
   color: #F0F1EA;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
@@ -193,7 +193,7 @@
   margin: 0.2em 0.2em;
 }
 
-.btn-portfolio:hover {
+.btn-projects:hover {
   background-color: #F0F1EA !important;
 }
 
