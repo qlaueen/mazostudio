@@ -1,5 +1,5 @@
 
-.main-projects {
+.main-portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,24 +33,24 @@
     padding: 0.2em 1.3em;
   }
 
-  .projects-title {
+  .portfolio-title {
     font-size: 2em;
     margin: 0.5em 0;
     font-weight: 700;
     text-transform: uppercase;
   }
 
-  .projects-description {
+  .portfolio-description {
     font-size: 1em;
     padding: 1em 2em 2em 0;
     color: $brand-black;
   }
   
-  .projects-item {
+  .portfolio-item {
     margin: 10em 0 10em 0;  
   }
 
-  .projects-text {
+  .portfolio-text {
   justify-content: center;    
     @media screen and (min-width: 992px) {
       position: relative;
